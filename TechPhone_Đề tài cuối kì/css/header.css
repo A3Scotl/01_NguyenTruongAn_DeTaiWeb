@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    height: 60px;
+    width: 100%;
+    background-color: #d70018;
+   
+   
+}
+.header_logo{
+    margin-left: 200px;
+    margin-bottom: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header_logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.header_danhmuc,.header_phone,.header_tracuu,.header_cuahangganban,.header_giohang
+{
+    padding: 5px;
+    border-radius: 15px;
+    width: 105px;
+    height: 40px;
+}
+.header_phone:hover,.header_tracuu:hover,.header_cuahangganban:hover,.header_user:hover,.header_giohang:hover{
+    background-color: #df3346;
+}
+.header_phone a,.header_tracuu a,.header_cuahangganban a,.header_giohang a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 5px;
+
+}
+.header_phone a i,.header_tracuu a i,.header_cuahangganban a i,.header_giohang a i{
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 3px;
+}
+.header_phone a p,.header_tracuu a p,.header_cuahangganban a p,.header_giohang a p{
+    color: #fff;
+    font-size: 13px;
+}
+.header_search{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    margin-left: 120px;
+}
+.header_search input{
+    border:none;
+    background: #fff;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    padding-left: 30px;
+    border-radius: 40px;
+}
+.header_search i{
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+.header_user{
+    width: 70px;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+.header_user a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+.header_user i{
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    font-size: 10px;
+
+}

@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(253, 250, 246);
+}
+.container{
+    width: 600px;
+    height: 400px;
+    margin-top:100px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    background-color: aliceblue;
+    box-shadow: 5px 10px 8px gray;
+}
+.color_left{
+    background-color: red;
+    opacity: .7;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 0;
+ 
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:50px;
+}
+.container p{
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    top: 10px;
+    right: 0;
+    width: 430px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .8;
+}
+.phonenumber,.id_product{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    padding-left: 20px;
+    border-radius:15px;
+    border: #fff;
+    right: 30px;
+    outline: none;
+}
+.phonenumber{
+    top:120px
+}
+.id_product{
+    top: 170px;
+}
+.btn_check,.btn_signin{
+    width: fit-content;
+    height:40px ;
+    border-radius:15px;
+    position: absolute;
+    outline: none;
+    
+}
+.btn_check{
+    right: 120px;
+    top: 235px;
+    width: 150px;
+    color: #fff;
+    font-weight: bold;
+    background-color: red;
+    border: red;
+    cursor: pointer;
+}
+span{
+    position: absolute;
+    right: 135px;
+    top: 278px;
+    color: #fff;
+    opacity: .5;
+}
+.btn_signin{
+    right: 75px;
+    top: 300px;
+    width: 250px;
+    color: #fff;
+    font-weight: bold;
+    background-color: red;
+    border: red;
+    cursor: pointer;
+}
