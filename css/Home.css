@@ -212,12 +212,13 @@
     margin-top: 5px;
     width: 190px;
     border-radius: 15px;
-   
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-out;
     
 }
 .container2_row2_item_img:hover,.container4_item_img:hover,.container6_item-img:hover{
     transform: scale(1.1);
+    width: 150px;
+   
 }
 .container2_row2_item_title,.container4_item_title,.container6_item_title{
     color: black;
@@ -245,6 +246,7 @@
 .container2_row2_item_like  i:hover,.container4_item_like  i:hover, .container6_item_like  i:hover{
     color: #d70018;
     transform: scale(1.2);
+    
    
 }
 
