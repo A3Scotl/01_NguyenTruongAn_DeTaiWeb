@@ -1,0 +1,89 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.container1{
+    display: flex;
+    gap: 230px;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.container2
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.img_product{
+    width: 200px;
+    height: 200px;
+}
+.details_products{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+ 
+}
+.details_name p {
+    font-weight: bold;
+}
+.container3{
+    width: 100%;
+    height: 133px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 5px  lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    row-gap: 5px;
+    margin-top: 180px;
+    
+}
+.container3_row1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.input1,.input2{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    cursor: pointer;
+
+}
+.input1{
+    background-color: red;
+    color: white;
+    border: red;
+}
+.input2{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
